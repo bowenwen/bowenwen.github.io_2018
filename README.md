@@ -1,7 +1,7 @@
 # Dev Portfolio
 
 ## Modifications
-This repo has been modify to contain the personal portfolio items of Bo Wen Wen
+This repo has been modify to contain the personal portfolio items of Bo Wen Wen.
 
 ## Original Repository Information
 
