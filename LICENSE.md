@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2017 Ryan Fitzgerald
+Original HTML and CSS code - Copyright (c) 2017 Ryan Fitzgerald
+
+Portfolio content updates - Copyright (c) 2018 Bo Wen Wen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
