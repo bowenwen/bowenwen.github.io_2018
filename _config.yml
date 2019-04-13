@@ -17,14 +17,14 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gongyu 公寓"
+title                    : "Gongyu0 公寓〇"
 title_separator          : "-"
 name                     : "Bo Wen"
 description              : "A site about mobility, transportation, data, and AI."
-url                      : https://gongyu.github.io 
+url                      : https://gongyu0.github.io 
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : bowenwen/gongyu.github.io
+repository               : gongyu0/gongyu0.github.io
 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo-blk.png"
