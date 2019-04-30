@@ -1,5 +1,10 @@
 # main links
 main:
+  - title: "Home"
+    url: https://www.bowenwen.com
+    icon: "fa fa-home"
+  - title: "CV"
+    url: https://cv.bowenwen.com
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -10,3 +15,4 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
