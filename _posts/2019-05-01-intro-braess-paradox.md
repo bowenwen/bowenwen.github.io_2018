@@ -15,7 +15,7 @@ toc_icon: "road"  # corresponding Font Awesome icon name (without fa prefix): he
 
 *Tl'dr: Usually, additional roads improve congestion. However, in certain circumstances, more roads can lead to worse congestion. It is important to assess the impact of new infrastructure!*
 
-I first learned about the Braess' Paradox in a third year transportation engineering class. It was a simple exercise to demonstrate the importance of evaluating the impact of infrastructural investments.
+I first learned about Braess' Paradox in a third year transportation engineering class. It is a simple exercise to demonstrate the importance of evaluating the impact of infrastructural investments.
 
 ## Base Case Scenario
 
@@ -25,7 +25,7 @@ Given there is 300 cars trying to travel from point A to point B, as shown below
 
 {% raw %}<img src="/assets/images/posts/network_braess_paradox_1.svg" alt="" width="300">{% endraw %}
 
-To help us with our calculation, let assume the travel time on these road links are as follow, where t is travel time, and v is volume on the road (aka, number of cars):
+To help us in our calculation, let us assume the travel time on these road links are as follows, where t is travel time, and v is volume on the road (i.e., number of cars):
 * for link 1 and 4: &nbsp;$$ t=1+0.02v $$
 * for link 2 and 3: &nbsp;$$ t=6+0.01v $$
 
@@ -35,7 +35,7 @@ There are two possible path connecting A and B:
 
 ### Solution
 
-Well, without doing any calculations, we know the number of cars will be equally divided since the two paths have the same two types of links exactly. We can confirm this by the calculations below:
+Without doing any calculations, we know the number of cars will be equally divided between path x and y because the two paths have exactly the same two types of links. We can confirm this by the calculations below:
 
 Let the travel times of the two options, $$t_1$$ and $$t_2$$, be equal (this is the condition for user equilibrium where you cannot "beat" the system by switching path), find volumes on the two path $$v1$$ and $$v2$$:
 
@@ -57,7 +57,7 @@ The travel time per car is 11.5 minutes; there are 150 cars on each path.
 
 ### Benefit Evaluation
 
-Usually, we evaluate benefits in terms of total network travel times. For simplicity, let us assume there are only 1 person per car
+In this example, let us evaluate "benefit" in terms of total network travel times. For simplicity, let us assume there are only 1 person per car
 
 $$ \boxed{tt_{network} = 11.5(300) = 3,450} $$
 
@@ -66,11 +66,11 @@ The total network travel time is 3,450 minutes or 2.40 days.
 
 ## New Network Scenario
 
-Ok, if you have get the gist of the calculation in the base case scenario, the next part is going to get more interesting. What if we add a new one way road in the middle of the network? Traditional wisdom would suggest that adding new roads will improve congestion, let us see if that is true and how much.
+If you have get the gist of the calculation in the base case scenario, the next part is going to get more interesting. What if we add a new one way road in the middle of the network? Traditional wisdom would suggest that adding new roads will improve congestion--let's see if that is true and by how much.
 
 ### Problem Definition
 
-Again, given there is 300 cars trying to travel from point A to point B, as shown below, but now with an additional one-way road in the middle:
+Again, there are 300 cars trying to travel from point A to point B, as shown below, but now with an additional one-way road in the middle:
 
 {% raw %}<img src="/assets/images/posts/network_braess_paradox_2.svg" alt="" width="300">{% endraw %}
 
@@ -86,7 +86,7 @@ Since we added a new link, there are now 3 ways to travel across the network:
 
 ### Solution
 
-The additional path adds a bit new spin to solving this problem, but our assumption is still the same. Using user equilibrium assumption, the travel times on all paths will be equal. Here are the summary of conditions:
+The additional path adds a new spin to solving this problem, but our assumptions are still the same. Using user equilibrium assumption, the travel times on all paths will be equal. Here are the summary of conditions:
 
 $$ t_x = t_y = t_z $$
 
@@ -98,7 +98,7 @@ $$ t_z = t_1 + t_4 + t_5 $$
 
 $$ 300 = v_x + v_y + v_z $$
 
-Applying the below conditions is where we need to be careful with the math, because path z shares path with both path x and y, we have to make sure to add the volumes to the shared links on path z. We can ensure that this is accounted for by using volume on the links when solving for volumes:
+Applying the below conditions is where we need to be careful with the math. Because path z shares path with both path x and y, we have to make sure to add the volumes to the shared links on path z. We can ensure that this is accounted for by using volume on the links when solving for volumes:
 
 $$ v_1 = v_x + v_z $$
 
@@ -124,7 +124,7 @@ $$ 300 = 2v_2 + v_5 $$
 
 $$ (300 - v_5)/2 = v_2 $$
 
-Now we have almost all of the volume relationships between paths and links, we are very close to getting all of the volumes solved.
+Now that we have almost all of the volume relationships between paths and links, we are very close to getting all of the volumes solved.
 
 $$ t_5 = t_3 $$
 
@@ -160,4 +160,4 @@ Our total network travel time has increased, indicating a worsening of congestio
 
 ## Closing Remarks
 
-So, what have we learned from this simple Braess' Paradox example? In simple terms, we cannot rely on our intuition and rule of thumb in all cases. There are exceptions to the rule that building roads will resolve congestion and it is important for us to assess the impact of infrastructure on road performance.
+So, what have we learned from this simple example of Braess' Paradox? In simple terms, we cannot rely on our intuitions and rules of thumb in all cases. There are exceptions to the rule that building roads will resolve congestion and it is important for us to assess the impact of infrastructure on road performance.
