@@ -10,7 +10,7 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll build --watch
 #
-# To upgrade, run `bundle update`.
+# To update gems, run `bundle update`.
 
 # option 1: for hosting on github-pages:
 # gem "github-pages", group: :jekyll_plugins
@@ -31,5 +31,9 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
+  # jekyll archives generate post archives: https://github.com/jekyll/jekyll-archives
   gem "jekyll-archives"
 end
+
+# Please add the following to your Gemfile to avoid polling for changes:
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
