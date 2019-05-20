@@ -117,7 +117,7 @@ author:
   name             : "Bo Wen"
   avatar           : "/assets/images/bw_avatar.png"
   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data geek, mad programmer."
+  bio              : "Your friendly neighborhood data geek in beautiful Vancouver."
   location         : #
   email            :
   links:
@@ -152,9 +152,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
+    - label: "Repo"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/bowenwen/bowenwen.github.io
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -308,9 +308,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: # true
+      related: true
+      pagination: false
   # # _foo
   # - scope:
   #     path: ""

@@ -2,7 +2,8 @@
 main:
   - title: "Home"
     url: https://www.bowenwen.com
-    icon: "fa fa-home"
+  - title: "Posts"
+    url: /posts/
   - title: "CV"
     url: https://cv.bowenwen.com
   # - title: "Quick-Start Guide"
