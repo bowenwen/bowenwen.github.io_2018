@@ -6,3 +6,10 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Vendor components */
+@import "mod/vendor/bigfoot/bigfoot-number.scss";
+
+/* Override default */
+@import "mod/_variables.scss";
+@import "mod/_site.scss";
