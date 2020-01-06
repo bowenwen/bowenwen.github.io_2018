@@ -12,12 +12,12 @@
 
 theme                    : "minimal-mistakes-jekyll"
 #remote_theme             : "mmistakes/minimal-mistakes@4.15.2"
-minimal_mistakes_skin    : "contrast"
+minimal_mistakes_skin    : "systemoptimal"
 #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Braess' paradox"
+title                    : "System Optimal"
 title_separator          : "-"
 name                     : "Bo Wen"
 description              : "A site about mobilities, data, and AI."
@@ -36,7 +36,7 @@ comments:
   provider               : "disqus"
   # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : braess-paradox
+    shortname            : system-optimal
     # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
@@ -117,7 +117,7 @@ author:
   name             : "Bo Wen"
   avatar           : "/assets/images/bw_avatar.png"
   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Your friendly neighborhood data geek in beautiful Vancouver."
+  bio              : "Data geek, mad programmer."
   location         : #
   email            :
   links:
@@ -233,7 +233,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

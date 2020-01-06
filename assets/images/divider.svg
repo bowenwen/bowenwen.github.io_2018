@@ -1,0 +1,14 @@
+<svg width="720" height="25" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="27" width="722" y="-1" x="-1"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <path d="m12.641007,8.591153l693.0614,0" stroke-miterlimit="4" stroke-width="8" fill="none" id="svg_14" stroke="rgb(100%,33.72549%,33.72549%)"/>
+  <path stroke="rgb(100%,33.72549%,33.72549%)" d="m15.101937,15.353543l689.533796,0" stroke-miterlimit="4" stroke-width="8" fill="none" id="svg_15"/>
+  <path stroke="rgb(100%,33.72549%,33.72549%)" d="m22.062874,12.432325c0,-5.061623 -4.254324,-9.166665 -9.500007,-9.166665c-5.248329,0 -9.5,4.105042 -9.5,9.166665c0,5.061623 4.251671,9.166665 9.5,9.166665c5.245676,0 9.500007,-4.105042 9.500007,-9.166665z" stroke-miterlimit="4" stroke-width="5" fill="rgb(49.803922%,0%,0%)" fill-rule="nonzero" id="svg_24"/>
+  <path stroke="rgb(100%,33.72549%,33.72549%)" d="m717.407682,12.432325c0,-5.061623 -4.254324,-9.166665 -9.500007,-9.166665c-5.248329,0 -9.5,4.105042 -9.5,9.166665c0,5.061623 4.251671,9.166666 9.5,9.166666c5.245676,0 9.500007,-4.105043 9.500007,-9.166666z" stroke-miterlimit="4" stroke-width="5" fill="rgb(49.803922%,0%,0%)" fill-rule="nonzero" id="svg_2"/>
+ </g>
+</svg>
