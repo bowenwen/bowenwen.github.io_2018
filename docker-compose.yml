@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  web:
+    build: .
+    ports:
+      - '4000:4000'
+    environment:
+      - JEKYLL_UID=1000
+      - JEKYLL_GID=1000
+      - JEKYLL_ROOTLESS=true

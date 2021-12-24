@@ -1,0 +1,8 @@
+# Ignore version control data
+.git/*
+
+# Ignore all logfiles and tempfiles.
+__examples/*
+__templates/*
+_site/*
+
