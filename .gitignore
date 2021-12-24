@@ -9,14 +9,10 @@ _asset_bundler_cache
 _site
 codekit-config.json
 example/_site
-Gemfile.lock
+# Gemfile.lock
 node_modules
 npm-debug.log*
 
 desktop.ini
 __templates
 __examples
-
-# portfolio one-page js
-portfolio_js/node_modules/
-portfolio_js/__templates/
