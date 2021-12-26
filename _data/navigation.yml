@@ -1,11 +1,13 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: "Posts"
-    url: /posts/
+    url: /posts
   - title: "CV"
-    url: https://cv.bowenwen.com
+    url: /cv.html
   - title: "About"
-    url: /about-me.html
+    url: /about-site.html
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
