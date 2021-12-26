@@ -16,3 +16,4 @@ npm-debug.log*
 desktop.ini
 __templates
 __examples
+.jekyll-cache/*
