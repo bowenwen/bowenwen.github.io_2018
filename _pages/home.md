@@ -1,7 +1,7 @@
 ---
 title: " "
 layout: splash
-permalink: /
+permalink: /index.html
 hidden: true
 header:
   overlay_color: "#5e616c"
