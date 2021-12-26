@@ -1,0 +1,31 @@
+name: Automerge
+
+on:
+  workflow_dispatch:
+  schedule:
+    # You can setup schedule here
+    - cron: '0 0 * * *'
+
+env:
+  MY_REPO: https://bowenwen:${{secrets.GITHUB_TOKEN}}@github.com/bowenwen/bowenwen.github.io.git
+
+  MY_BRANCH: gh-pages
+
+  MASTER_REPO: https://github.com/bowenwen/bowenwen.github.io.git
+
+  MASTER_BRANCH: master
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Merge with master
+      run: |
+        git clone ${{env.MY_REPO}} -b ${{env.MY_BRANCH}} tmp
+        cd tmp
+        git config user.name "Automerge Bot"
+        git config user.email "bot@example.com"
+        git config pull.rebase false
+        git pull ${{env.MASTER_REPO}} ${{env.MASTER_BRANCH}}
+        git push
