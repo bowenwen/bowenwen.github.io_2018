@@ -5,6 +5,7 @@ services:
     build: .
     ports:
       - '4000:4000'
+    command: 'bundle exec jekyll serve --host=0.0.0.0 --watch'
     environment:
       - JEKYLL_UID=1000
       - JEKYLL_GID=1000

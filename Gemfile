@@ -26,6 +26,10 @@ source "https://rubygems.org"
 #     docker cp $id:/home/app/web/Gemfile.lock - > ./Gemfile.lock
 #     docker rm -v $id
 #
+# Run with docker
+#
+#     docker-compose --file docker-compose.yml --file docker-compose.override.yml up
+#
 
 # option 1: for hosting on github-pages:
 # gem "github-pages", group: :jekyll_plugins
