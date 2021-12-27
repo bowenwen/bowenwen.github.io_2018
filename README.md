@@ -38,6 +38,7 @@ docker cp $id:/home/app/web/Gemfile.lock - > ./Gemfile.lock
 ```
 4. view the file within the container
 ```
+docker start $id
 docker exec -it $id /bin/sh
 cat Gemfile.lock
 docker stop $id
