@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
 # option 1: for hosting on github-pages:
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
-# option 2: for self-hosting
-gem "jekyll", group: :jekyll_plugins
-gem "minimal-mistakes-jekyll"
+# # option 2: for self-hosting
+# gem "jekyll", group: :jekyll_plugins
+# gem "minimal-mistakes-jekyll"
 
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
@@ -21,5 +21,5 @@ group :jekyll_plugins do
   gem "jekyll-archives"
 end
 
-# gem "tzinfo-data"
+gem "tzinfo-data"
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
