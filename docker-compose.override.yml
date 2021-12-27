@@ -4,7 +4,3 @@ services:
   web:
     volumes:
       - .:/home/app/web
-      - web_bundle:/usr/local/bundle
-
-volumes:
-  web_bundle:
