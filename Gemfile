@@ -2,10 +2,9 @@ source "https://rubygems.org"
 
 # option 1: for hosting on github-pages:
 # gem "github-pages", group: :jekyll_plugins
-# gem "jekyll-include-cache"
 
 # option 2: for self-hosting
-gem "jekyll"
+gem "jekyll", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
 
 # If you have any other plugins, put them here!
