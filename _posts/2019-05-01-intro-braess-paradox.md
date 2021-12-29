@@ -1,7 +1,7 @@
 ---
 title: "An introduction to Braess' Paradox"
 categories:
-  - Mobilities  # Mobilities, Data, AI
+  - algorithms  # algorithms, computing, AI
 tags:
   - math
   - traffic

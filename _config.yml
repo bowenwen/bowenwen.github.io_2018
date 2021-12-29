@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "System Optimal"
 title_separator          : "-"
 name                     : "Bo Wen"
-description              : "A site about mobilities, data, and AI."
+description              : "Bo Wen's Personal Site."
 url                      : https://www.bowenwen.com 
 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
