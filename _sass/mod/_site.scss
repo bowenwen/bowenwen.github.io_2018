@@ -188,3 +188,204 @@
 //     opacity: 0;
 //   }
 // }
+
+
+/*! Title: Dev Portfolio Template Version: 1.2.1 Last Change: 08/28/2017 Author: Ryan Fitzgerald Repo: https://github.com/RyanFitzgerald/devportfolio-template Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues Description: This file contains all the styles associated with the page that don't come from third party libraries. This file gets compiled using Gulp and send to the /css folder which is then loaded on the page. */
+.no-js #experience-timeline>div{
+  background:#fff;
+  padding:10px;
+  margin-bottom:10px;
+  border:1px solid #dcd9d9
+}
+.no-js #experience-timeline>div h3{
+  font-size:1.5em;
+  font-weight:300;
+  color:#374054;
+  display:inline-block;
+  margin:0
+}
+.no-js #experience-timeline>div h4{
+  font-size:1.2em;
+  font-weight:300;
+  color:#7e8890;
+  margin:0 0 15px 0
+}
+.no-js #experience-timeline>div p{
+  color:#74808a;
+  font-size:0.9em;
+  margin:0
+}
+.no-js #experience-timeline:before,.no-js #experience-timeline:after{
+  content:none
+}#experience-timeline{
+    margin:30px auto 0 auto;
+    position:relative;
+    max-width:1000px
+}
+#experience-timeline:before{
+    position:absolute;
+    content:'';
+    top:0;
+    bottom:0;
+    left:303px;
+    right:auto;
+    height:100%;
+    width:3px;
+    background:#3498db;
+    z-index:0
+}
+#experience-timeline:after{
+    position:absolute;
+    content:'';
+    width:3px;
+    height:40px;
+    background:#3498db;
+    background:linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
+    top:100%;
+    left:303px
+}
+.vtimeline-content{
+    margin-left:350px;
+    background:#fff;
+    border:1px solid #e6e6e6;
+    padding:15px;
+    border-radius:3px;
+    text-align:left
+}
+.vtimeline-content h3{
+    font-size:1.5em;
+    font-weight:300;
+    color:#374054;
+    display:inline-block;
+    margin:0
+}
+.vtimeline-content h4{
+    font-size:1.2em;
+    font-weight:300;
+    color:#7e8890;
+    margin:0 0 15px 0
+}
+.vtimeline-content p{
+    color:#74808a;
+    font-size:0.9em;
+    margin:0
+}
+.vtimeline-point{
+    position:relative;
+    display:block;
+    vertical-align:top;
+    margin-bottom:30px
+}
+.vtimeline-icon{
+  position:relative;
+  color:#fff;
+  width:40px;
+  height:40px;
+  background:#b81a1a;
+  border-radius:50%;
+  float:left;
+  z-index:99;
+  margin-left:280px
+}
+.vtimeline-icon i{
+  display:inline-block;
+  text-align:center;
+  // font-size:2em;
+  font-size:20px;
+  margin-top:20px
+}
+.vtimeline-date{
+    width:260px;
+    text-align:right;
+    position:absolute;
+    left:0;
+    top:10px;
+    font-weight:300;
+    color:#374054
+}
+#experience-timeline{
+  margin:30px auto 0 auto;
+  position:relative;
+  max-width:1000px
+}
+#experience-timeline:before{
+  position:absolute;
+  content:'';
+  top:0;
+  bottom:0;
+  left:303px;
+  right:auto;
+  height:100%;
+  width:3px;
+  background:#b81a1a;
+  z-index:0
+}
+#experience-timeline:after{
+  position:absolute;
+  content:'';
+  width:3px;
+  height:40px;
+  background:#b81a1a;
+  background:linear-gradient(to bottom, #b81a1a, rgba(52,152,219,0));
+  top:100%;
+  left:303px
+}
+.vtimeline-content{
+  margin-left:350px;
+  background:#fff;
+  border:1px solid #e6e6e6;
+  padding:15px;
+  border-radius:3px;
+  text-align:left
+}
+.vtimeline-content h3{
+  font-size:1.5em;
+  font-weight:300;
+  color:#374054;
+  display:inline-block;
+  margin:0
+}
+.vtimeline-content h4{
+  font-size:1.2em;
+  font-weight:300;
+  color:#7e8890;
+  margin:0 0 15px 0
+}
+.vtimeline-content p{
+  color:#74808a;
+  font-size:0.9em;
+  margin:0
+}
+.vtimeline-point{
+  position:relative;
+  display:block;
+  vertical-align:top;
+  margin-bottom:30px
+}
+.vtimeline-date{
+  width:260px;
+  text-align:right;
+  position:absolute;
+  left:0;
+  top:10px;
+  font-weight:300;
+  color:#374054
+}
+// Always small screen setting
+#experience-timeline:before,#experience-timeline:after{
+  left:20px
+}
+.vtimeline-date{
+  width:auto;
+  text-align:left;
+  position:relative;
+  margin-bottom:15px;
+  display:block;
+  margin-left:70px
+}
+.vtimeline-icon{
+  margin-left:0
+}
+.vtimeline-content{
+  margin-left:70px
+}
