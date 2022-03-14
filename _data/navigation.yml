@@ -5,7 +5,7 @@ main:
   - title: "Posts"
     url: /posts
   - title: "CV"
-    url: /cv.html
+    url: /cv
   - title: "About"
     url: /about-site.html
   # - title: "Quick-Start Guide"
